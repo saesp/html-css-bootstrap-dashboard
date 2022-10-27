@@ -11,29 +11,63 @@ body{
 
 
 /* HEADER */
+
+/* nav left */
 .head-nav-left{
-    width: 150px;
+    width: 125px;
     height: 100%;
     background-color: blue;
     position: fixed;
-    top: 75px;
+    top: 65px;
     left: 0;
+    padding: 30px 15px;
+}
+
+.head-nav-left a{
+    text-decoration: none;
+    color: white;
+}
+
+.head-left-sec1{
+    margin-bottom: 550px;
 }
 
 
+/* nav top */
 .head-nav-top{
     width: 100%;
-    height: 75px;
-    background-color: gray;
+    height: 65px;
+    background-color: white;
     position: fixed;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
 }
+
+.head-top-sec1{
+
+}
+
+.head-top-sec2 .search{
+    padding: 8px 400px;
+    text-align: left;
+    border: 0;
+    border-radius: 4%;
+    background-color: lightgray;
+}
+
+.head-top-sec3{
+
+}
+
 
 
 /* MAIN */
 main{
-    margin-top: 75px;
-    margin-left: 150px;
+    margin-top: 65px;
+    margin-left: 125px;
 }
 .main-sec1{
     background-color: skyblue;
