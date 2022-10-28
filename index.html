@@ -14,37 +14,39 @@
     
         <!-- HEADER -->
         <header>
-            <!-- nav top -->
+            <!-- nav left -->
             <nav class="head-nav-left">
                 <section class="head-left-sec1">
-                    <div><a href="#">Home</a></div>
-                    <div><a href="#">Stats</a></div>
-                    <div><a href="#">Signals</a></div>
+                    <div><a href="#"><i class="fa-solid fa-house"></i> Home</a></div>
+                    <div><a href="#"><i class="fa-solid fa-chart-simple"></i> Stats</a></div>
+                    <div><a href="#"><i class="fa-solid fa-signal"></i> Signals</a></div>
                 </section>
     
                 <section class="head-left-sec2">
-                    <div><a href="#">Admin</a></div>
+                    <div><a href="#"><i class="fa-solid fa-gear"></i> Admin</a></div>
                 </section>
             </nav>
     
     
-            <!-- nav left -->
+            <!-- nav top -->
             <nav class="head-nav-top">
-                <section class="head-top-sec1">
-                    <img src="" alt="logo">
-                </section>
-                <section class="head-top-sec2">
-                    <input type="text" class="search" required placeholder="Prova a cercare: Lezioni di Laravel">
-                </section>
-                <section class="head-top-sec3">
-                    <a href="#">o</a>
-                    <a href="#">o</a>
-                    <a href="#">o</a>
-                    <select name="choice">
-                        <option value="opt1">option1</option>
-                        <option value="opt2">option2</option>
-                    </select>
-                </section>
+                <div class="container-head-top">
+                    <section class="head-top-sec1">
+                        <img src="img/logo (1).svg" alt="logo">
+                    </section>
+                    <section class="head-top-sec2">
+                        <input type="text" class="search" required placeholder="Prova a cercare: Lezioni di Laravel">
+                    </section>
+                    <section class="head-top-sec3">
+                        <a href="#">o</a>
+                        <a href="#">o</a>
+                        <a href="#">o</a>
+                        <select name="choice">
+                            <option value="opt1">option1</option>
+                            <option value="opt2">option2</option>
+                        </select>
+                    </section>
+                </div>
             </nav>
         </header>
     
@@ -58,7 +60,7 @@
             <section class="main-sec1">
                 <div>
                     <div>
-                        <h1>Boolean</h1>
+                        <h3>Boolean</h3>
                     </div>
                     <div>
                         kkkk
@@ -78,16 +80,16 @@
                 <div class="main-container1"> <!-- div 1 -->
                     <div class="tab-classi main-tab">
                         <div class="tab-title" id="tab-classi-title">
-                            <h2>Prossime classi</h2>
+                            <h3>Prossime classi</h3>
                             <span>+</span>
                         </div>
                         
                         <div class="tab-row-top flex-row">
-                            <div class="tab-name" id="tab-name-top">Nome</div>
-                            <div class="tab-right">Data inizio</div>
-                            <div class="tab-right">ROI</div>
-                            <div class="tab-right">Stato</div>
-                            <div class="tab-right">Azioni</div>
+                            <div class="tab-name" id="tab-name-top"><strong>Nome</strong></div>
+                            <div class="tab-right"><strong>Data inizio</strong></div>
+                            <div class="tab-right"><strong>ROI</strong></div>
+                            <div class="tab-right"><strong>Stato</strong></div>
+                            <div class="tab-right"><strong>Azioni</strong></div>
                         </div>
 
                         <div class="tab-rows flex-row">
@@ -174,7 +176,7 @@
 
                     <div class="tab-faq main-tab">
                         <div class="tab-title">
-                            <h2>FAQ</h2>
+                            <h3>FAQ</h3>
                         </div>
                         
                         <div class="question" id="question1">
@@ -196,27 +198,27 @@
 
                     <div class="tab-todo main-tab">
                         <div class="tab-title">
-                            <h2>Todo</h2>
+                            <h3>Todo</h3>
                         </div>
                         
-                        <div class="container-box">
+                        <div class="container-checkbox">
                             <div>
                                 <input type="checkbox"> Kickoff
                             </div>
                             <div>
                                 <input type="checkbox"> Lezione
                             </div>
-                            <div>
-                                <input type="checkbox"> Controllare
+                            <div id="checkbox-bottom">
+                                <input type="checkbox"> Controllare username github studenti
                             </div>
                         </div>
                     </div>
 
                     <div class="tab-graphic main-tab">
                         <div class="container-tab-graphic">
-                            <img src="" alt="graphic">
+                            <img src="img/stats.jpeg" alt="graphic" width="99%">
                             <div>
-                                <h3>Utenti attivi</h3>
+                                <h4>Utenti attivi</h4>
                                 <span>Lista degli utenti attivi</span>
                             </div>
                             <div class="row-month">Gennaio</div>

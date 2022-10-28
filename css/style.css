@@ -16,7 +16,7 @@ body{
 .head-nav-left{
     width: 125px;
     height: 100%;
-    background-color: blue;
+    background-color: #10273d;
     position: fixed;
     top: 65px;
     left: 0;
@@ -27,9 +27,15 @@ body{
     text-decoration: none;
     color: white;
 }
-
+.head-nav-left i{
+    width: 10px;
+    margin-right: 15px;
+}
 .head-left-sec1{
-    margin-bottom: 550px;
+    margin-bottom: 520px;
+}
+.head-left-sec1 div{
+    margin-bottom: 20px;
 }
 
 
@@ -37,25 +43,34 @@ body{
 .head-nav-top{
     width: 100%;
     height: 65px;
-    background-color: white;
+    background-color: #f8f9fa;
     position: fixed;
     top: 0;
+    padding: 10px 0;
+}
+
+.container-head-top{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
     align-items: center;
+    background-color:white;
 }
 
-.head-top-sec1{
 
+.head-nav-top img{
+    margin-left: 16px;
 }
+.head-top-sec3{
+    margin-right: 16px;
+}
+
 
 .head-top-sec2 .search{
-    padding: 8px 400px;
+    padding: 12px 520px;
     text-align: left;
     border: 0;
-    border-radius: 4%;
-    background-color: lightgray;
+    /* border-radius: 4%; */
+    background-color:#e5e5e5;
 }
 
 .head-top-sec3{
@@ -68,9 +83,10 @@ body{
 main{
     margin-top: 65px;
     margin-left: 125px;
+    background-color: #f8f9fa;
 }
 .main-sec1{
-    background-color: skyblue;
+    background-color: #1b72e8;
     padding: 20px 10px;
     display: flex;
     justify-content: space-between;
@@ -79,34 +95,33 @@ main{
 .main-sec2{
     padding: 20px 10px;
     display: flex;
-    justify-content: space-between;
 }
 
 .main-tab{
-    border: 1px solid lightgray;
+    border: 1px solid #dadfe3;
     border-radius: 2%;
     margin-bottom: 20px;
+    background-color: white;
+}
+.main-container1{
+    margin-right: 20px;
 }
 
-
-.main-sec2 .tab-title{
-    border-bottom: 1px solid lightgray;
+.main-tab .tab-title{
+    border-bottom: 1px solid #dadfe3;
     padding: 10px 15px;
-    background-color: gray;
+    background-color: #f7f7f7;
 }
 
-.main-sec2 #tab-classi-title{
+.main-tab #tab-classi-title{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid lightgray;
-    padding: 10px 15px;
-    background-color: gray;
     margin-bottom: 12px;
 }
 
 .flex-row{
     display: flex;
-    border-bottom:  1px solid lightgray;
+    border-bottom:  1px solid #dadfe3;
     padding: 10px;
     margin: 0 10px;
 }
@@ -139,29 +154,34 @@ main{
     margin-bottom: 12px;
 }
 .tab-faq .question{
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #dadfe3;
     padding: 16px 15px;
     margin: 0 10px;
     display: flex;
     justify-content: space-between;
 }
 
-.container-box{
-    border: 1px solid lightgray;
+.container-checkbox{
+    border: 1px solid #dadfe3;
+    border-radius: 3%;
     margin: 10px;
 }
-.container-box div{
-    border-bottom: 1px solid lightgray;
+.container-checkbox div{
+    border-bottom: 1px solid #dadfe3;
+    width: 420px;
     padding: 10px;
 }
-
+#checkbox-bottom{
+    border: 0;
+}
 
 .container-tab-graphic{
-    border: 1px solid lightgray;
+    border: 1px solid #dadfe3;
+    border-radius: 3%;
     margin: 10px;
 }
 
 .container-tab-graphic div{
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #dadfe3;
     padding: 10px;
 }
