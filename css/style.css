@@ -130,6 +130,7 @@ main{
     display: flex;
 }
 
+/* tab */
 .main-tab{
     border: 1px solid #dadfe3;
     border-radius: 2%;
@@ -139,7 +140,16 @@ main{
 .main-container1{
     margin-right: 20px;
 }
-
+.square-plus{
+    font-size: 30px;
+    color: #1b72e8;
+    border: 1px solid #1b72e8;
+    border-radius: 8px;
+    padding: 4px 12px;
+}
+.tab-title a{
+    text-decoration: none;
+}
 .main-tab .tab-title{
     border-bottom: 1px solid #dadfe3;
     border-radius: 3%;
@@ -160,18 +170,50 @@ main{
     margin: 0 10px;
 }
 .tab-name{
-    width: 70px;
+    width: 90px;
     margin-right: 300px;
 }
-
+.fa-code{
+    background-color: red;
+    border-radius: 100%;
+    padding: 3px;
+}
 .tab-right{
     width: 80px;
     margin-left: 40px;
     text-align: center;
 }
+.tab-button{
+    padding: 4px 0;
+    color: white;
+    border-radius: 30%;
+}
+
+.button-yellow{
+    background-color: yellow;
+}
+
+.button-green{
+    background-color: green;
+}
+
+.button-red{
+    background-color: red;
+}
+
 #tab-row-bottom{
     margin-bottom: 22px;
 }
+.tab-azioni a{
+    text-decoration: none;
+    color:#5b5858;
+}
+.tab-azioni i{
+    padding: 5px;
+    border: 1px solid #5b5858;
+    border-radius: 15%;
+}
+
 
 /* faq */
 .tab-faq select{
