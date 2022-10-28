@@ -77,12 +77,13 @@
 
                 <div class="main-container1"> <!-- div 1 -->
                     <div class="tab-classi main-tab">
-
-                        <h2>Prossime classi</h2>
-                        <span>+</span>
+                        <div class="tab-title" id="tab-classi-title">
+                            <h2>Prossime classi</h2>
+                            <span>+</span>
+                        </div>
                         
                         <div class="tab-row-top flex-row">
-                            <div class="tab-name">Nome</div>
+                            <div class="tab-name" id="tab-name-top">Nome</div>
                             <div class="tab-right">Data inizio</div>
                             <div class="tab-right">ROI</div>
                             <div class="tab-right">Stato</div>
@@ -159,7 +160,7 @@
                                 <a href="#">*</a>
                             </div>
                         </div>
-                        <div class="tab-rows flex-row">
+                        <div class="tab-rows flex-row" id="tab-row-bottom">
                             <div class="tab-name">Classe 75</div>
                             <div class="tab-right">15 Feb 2001</div>
                             <div class="tab-right">20%</div>
@@ -172,15 +173,18 @@
                     </div>
 
                     <div class="tab-faq main-tab">
-                        <h2>FAQ</h2>
-                        <div>
-                            Come aggiunger una nuova classe? <select name="choice"></select>
+                        <div class="tab-title">
+                            <h2>FAQ</h2>
                         </div>
-                        <div>
-                            Come aggiunger una nuova classe? <select name="choice"></select>
+                        
+                        <div class="question" id="question1">
+                            <span>Come aggiunger una nuova classe?</span> <select name="choice"></select>
                         </div>
-                        <div>
-                            Come aggiunger una nuova classe? <select name="choice"></select>
+                        <div class="question">
+                            <span>Come aggiunger una nuova classe?</span> <select name="choice"></select>
+                        </div>
+                        <div class="question" id="question3">
+                            <span>Come aggiunger una nuova classe?</span> <select name="choice"></select>
                         </div>
                     </div>
 
@@ -191,7 +195,10 @@
                 <div class="main-container2"> <!-- div 2 -->
 
                     <div class="tab-todo main-tab">
-                        <h2>Todo</h2>
+                        <div class="tab-title">
+                            <h2>Todo</h2>
+                        </div>
+                        
                         <div class="container-box">
                             <div>
                                 <input type="checkbox"> Kickoff
