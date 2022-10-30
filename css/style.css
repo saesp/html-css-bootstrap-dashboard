@@ -56,17 +56,18 @@ body{
     background-color:white;
 }
 
-
-.head-nav-top img{
+.head-top-sec1 img{
     margin-left: 16px;
+    margin-right: 16px;
 }
 .head-top-sec3{
     margin-right: 16px;
+    margin-left: 16px;
 }
 
 
 .head-top-sec2 .search{
-    padding: 12px 520px;
+    padding: 12px 510px;
     text-align: left;
     border: 0;
     border-radius: 4%;
@@ -97,22 +98,29 @@ main{
     color: white;
 }
 
-.main-sec1-boolean{
+.boolean-buttons{
     margin-bottom: 10px;
 }
-.main-sec1-boolean h3{
+.boolean-buttons h3{
     display: inline-block;
     margin-right: 10px;
+    font-size: 30px;
 }
 .button-blue{
     border: 0;
     border-radius: 20%;
     padding: 3px 5px;
-    margin-right: 10px;
+    margin-right: 5px;
     background-color:#165bba;
     color: white;
 }
+.button-md{
+    display: none;
+}
 
+.fa-angles-right{
+    margin-right: 5px;
+}
 
 .main-sec1-students{
     margin-right: 125px;
@@ -151,6 +159,9 @@ main{
 .tab-title a{
     text-decoration: none;
 }
+.tab-title h3{
+    font-size: 22px;
+}
 .main-tab .tab-title{
     border-bottom: 1px solid #dadfe3;
     border-radius: 3%;
@@ -175,7 +186,7 @@ main{
     margin-right: 300px;
 }
 .fa-code{
-    background-color: red;
+    background-color:#f26551;
     border-radius: 100%;
     padding: 3px;
 }
@@ -191,15 +202,15 @@ main{
 }
 
 .button-yellow{
-    background-color: yellow;
+    background-color: #ffc107;
 }
 
 .button-green{
-    background-color: green;
+    background-color: #198754;
 }
 
 .button-red{
-    background-color: red;
+    background-color: #dc3545;
 }
 
 #tab-row-bottom{
@@ -260,7 +271,14 @@ main{
     border-radius: 3%;
     width: 99%;
 }
+.container-tab-graphic h4{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
 .container-tab-graphic div{
     border-bottom: 1px solid #dadfe3;
     padding: 10px;
+}
+#row-month-bottom{
+    border: 0;
 }

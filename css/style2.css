@@ -42,6 +42,16 @@
     display: none;
     }
     
+    .button-lg{
+    display: none; 
+    }
+    .button-md{
+        display: inline-block;
+    }
+    .main-sec1-boolean{
+        margin-bottom: 20px;
+    }
+
     .head-left-sec1{
     margin-bottom: 500px;
     }
@@ -58,5 +68,12 @@
     }
     .main-sec2{
         display: block;
+    }
+    
+    .main-container1{
+        margin-right: 0;
+    }
+    .tab-name{
+        margin-right: 0;
     }
 }
