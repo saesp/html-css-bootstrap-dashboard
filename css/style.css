@@ -22,7 +22,6 @@ body{
     left: 0;
     padding: 30px 15px;
 }
-
 .head-nav-left a{
     text-decoration: none;
     color: white;
@@ -38,7 +37,6 @@ body{
     margin-bottom: 20px;
 }
 
-
 /* nav top */
 .head-nav-top{
     width: 100%;
@@ -48,14 +46,12 @@ body{
     top: 0;
     padding: 10px 0;
 }
-
 .container-head-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:white;
 }
-
 .head-top-sec1 img{
     margin-left: 16px;
     margin-right: 16px;
@@ -64,8 +60,6 @@ body{
     margin-right: 16px;
     margin-left: 16px;
 }
-
-
 .head-top-sec2 .search{
     padding: 12px 510px;
     text-align: left;
@@ -73,7 +67,6 @@ body{
     border-radius: 4%;
     background-color:#e5e5e5;
 }
-
 .head-top-sec3 a{
     text-decoration: none;
     color: #5b5858;
@@ -90,6 +83,8 @@ main{
     margin-left: 125px;
     background-color: #f8f9fa;
 }
+
+/* sec 1 */
 .main-sec1{
     background-color: #1b72e8;
     padding: 20px 10px;
@@ -97,7 +92,6 @@ main{
     justify-content: space-between;
     color: white;
 }
-
 .boolean-buttons{
     margin-bottom: 10px;
 }
@@ -117,11 +111,9 @@ main{
 .button-md{
     display: none;
 }
-
 .fa-angles-right{
     margin-right: 5px;
 }
-
 .main-sec1-students{
     margin-right: 125px;
 }
@@ -149,6 +141,8 @@ main{
 .main-container1{
     margin-right: 20px;
 }
+
+/* tab classi */
 .square-plus{
     font-size: 30px;
     color: #1b72e8;
@@ -168,13 +162,11 @@ main{
     padding: 10px 15px;
     background-color: #f7f7f7;
 }
-
 .main-tab #tab-classi-title{
     display: flex;
     justify-content: space-between;
     margin-bottom: 12px;
 }
-
 .flex-row{
     display: flex;
     border-bottom:  1px solid #dadfe3;
@@ -200,19 +192,15 @@ main{
     color: white;
     border-radius: 30%;
 }
-
 .button-yellow{
     background-color: #ffc107;
 }
-
 .button-green{
     background-color: #198754;
 }
-
 .button-red{
     background-color: #dc3545;
 }
-
 #tab-row-bottom{
     margin-bottom: 22px;
 }
@@ -226,12 +214,10 @@ main{
     border-radius: 15%;
 }
 
-
 /* faq */
 .tab-faq select{
     border: 0;
 }
-
 #question1{
     margin-top: 12px;
 }
@@ -247,6 +233,7 @@ main{
     justify-content: space-between;
 }
 
+/* tab todo */
 .container-checkbox{
     border: 1px solid #dadfe3;
     border-radius: 3%;
@@ -261,12 +248,12 @@ main{
     border: 0;
 }
 
+/* tab graphic */
 .container-tab-graphic{
     border: 1px solid #dadfe3;
     border-radius: 3%;
     margin: 10px;
 }
-
 .container-tab-graphic img{
     border-radius: 3%;
     width: 99%;
